@@ -522,6 +522,25 @@ label[for="imageInput"]:hover {
   transition: opacity 0.1s ease-in-out;
 }
 
+@media (max-width: 600px) {
+  .card-text {
+    font-size: 11px; /* Adjust as needed */
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* Reduce header width */
+  .header {
+    max-height: 50%; /* Adjust as needed */
+    margin: 0 auto;
+  }
+
+  /* Reduce spaces between navigation items */
+  .nav a {
+    margin: 2px 0; /* Adjust spacing as needed */
+  }
+}
+
 
 
 
